@@ -1,0 +1,10 @@
+Package: SoapUI
+Version: 5.4.0
+Depends: default-jre
+Section: misc
+Priority: optional
+Architecture: amd64
+Maintainer: Alek Wyka <aks@cuphalfempty.net>
+Description: SoapUI by SmartBear
+  Deb wrapper for SoapUI.
+  https://www.soapui.org/

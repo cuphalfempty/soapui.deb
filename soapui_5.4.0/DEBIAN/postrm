@@ -1,0 +1,5 @@
+#/bin/sh
+
+rm -rf /opt/soapui
+
+# vim: filetype=sh:
