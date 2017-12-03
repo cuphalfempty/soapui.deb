@@ -1,8 +1,15 @@
-#!/bin/sh
+#!/bin/bash
+
+if [ ! -d "/opt/soapui" ];
+then
+    mkdir -p /opt/soapui
+fi
 
 TAR_GZ="SoapUI-5.4.0-EB-linux-bin.tar.gz"
 
 tar -xf "$HOME/$TAR_GZ" -C /opt/soapui/ --strip-components=1
+
+wget https://www.soapui.org/soapui/media/assets/Images/SoapUI-Fav.png -O /opt/soapui/soapui-fav.png 2>1
 
 chmod a+r -R /opt/soapui
 find /opt/soapui/ -type d -exec chmod a+x {} \;

@@ -3,6 +3,7 @@ Name=SoapUI
 GenericName=SoapUI by SmartBear
 Exec=soapui
 Terminal=false
+Icon=/opt/soapui/soapui-fav.png
 Type=Application
 Categories=Development;IDE;
 Version=5.4.0
