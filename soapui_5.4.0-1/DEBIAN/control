@@ -1,5 +1,5 @@
 Package: SoapUI
-Version: 5.4.0
+Version: 5.4.0-1
 Depends: default-jre
 Section: misc
 Priority: optional
