@@ -1,1 +1,3 @@
-/opt/soapui/bin/soapui.sh
+#!/bin/sh
+
+SOAPUI_HOME=/opt/soapui /opt/soapui/bin/soapui.sh
