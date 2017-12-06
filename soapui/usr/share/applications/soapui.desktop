@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=SoapUI
 GenericName=SoapUI by SmartBear
-Exec=soapui
+Exec=/usr/local/bin/soapui
 Terminal=false
 Icon=/opt/soapui/soapui-fav.png
 Type=Application
