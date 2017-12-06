@@ -12,5 +12,7 @@ tar -xf "$HOME/$TAR_GZ" -C /opt/soapui/ --strip-components=1
 wget https://www.soapui.org/soapui/media/assets/Images/SoapUI-Fav.png -O /opt/soapui/soapui-fav.png 2>1
 
 chmod a+r -R /opt/soapui
+
+chmod a+x /opt/soapui
 find /opt/soapui/ -type d -exec chmod a+x {} \;
 find /opt/soapui/ -type f -name *sh -exec chmod a+x {} \;
